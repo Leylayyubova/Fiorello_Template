@@ -1,0 +1,173 @@
+.about {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: 50% 70px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    .container-fluid {
+            .content {
+                position: absolute;
+                text-align: center;
+                top: 40%;
+                left: 40%;
+
+                h2 {
+                    font-family: 'Playfair Display', serif;
+                    font-size: 50px;
+                    font-weight: 400;
+                    color: #0e0e0e;
+                }
+
+                p {
+                    font-size: 17px;
+                    font-family: 'Lora', serif;
+                    font-style: italic;
+                    text-transform: none;
+                    color: #6d6a6a;
+                    margin: 8px 0 0;
+                }
+            }
+        
+    }
+}
+
+.happiness {
+    .container {
+      padding: 80px 15px 120px 15px;
+        .inner {
+            .image {
+                position: relative;
+                width: 650px;
+                height: 420px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    transform: translateZ(0);
+                    transition: transform 0.3s ease;
+                }
+                
+                img:hover {
+                    transform: scale(1.05); 
+                }
+
+                .play {
+                    position: absolute;
+                    z-index: 1;
+                    top: 50%;
+                    left: 40%;
+                    transform: translateY(-50%);
+                    font-size: 30px;
+                    text-align: center;
+                    width: 103px;
+                    height: 103px;
+                    color: #f34f3f;
+                    background: #fff;
+                    border-radius: 50%;
+                    margin: 0 auto;
+
+
+                    i {
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        top: 35%;
+                        left: 0;
+                        font-size: 30px;
+                        color: #f34f3f;
+                    }
+
+                }
+            }
+        }
+
+        .inner {
+            .content {
+                h2 {
+                    font-size: 38px;
+                    font-family: "Playfair Display", serif;
+                    font-weight: 400;
+                    line-height: 1.447em;
+                    color: #2b2b2b;
+                    margin: 0 0 19px;
+
+                    span {
+                        color: #f34f3f;
+                    }
+                }
+
+                p {
+                    font-size: 17px;
+                    font-family: Lora, serif;
+                    color: #6d6a6a;
+                    line-height: 29px;
+                    margin-top: 27px;
+                }
+
+            }
+        }
+    }
+}
+
+.flower {
+    background-color: #f7f7f7;
+    .container {
+        padding-bottom: 80px;
+
+        h2 {
+            font-size: 38px;
+            font-family: 'Playfair Display', serif;
+            color: #2b2b2b;
+            text-align: center;
+            margin: 0 0 19px;
+            padding-top: 138px;
+        }
+
+        p {
+            font-size: 17px;
+            font-family: 'Lora', serif;
+            color: #6d6a6a;
+            text-align: center;
+            margin: 14px 0 0;
+            padding-bottom: 60px;
+
+        }
+
+        .inner {
+            padding:  0 15px 80px 15;
+
+            .img {
+                display: flex;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    margin: 30px;
+                }
+            }
+
+            .content {
+                text-align: center;
+                font-family: 'Montserrat', sans-serif;              
+                font-weight: 500;
+                
+                h3 {
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    letter-spacing: .1em;               
+                    color: #1b1b1b;
+                }
+                span {
+                    color: #afafaf;
+                    font-size: 12px;
+                    margin: 2px;
+                }
+            }
+        }
+    }
+}

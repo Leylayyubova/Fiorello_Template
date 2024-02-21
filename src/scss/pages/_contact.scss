@@ -1,0 +1,76 @@
+.send {
+    .container {
+        padding: 120px 0;
+        .inner {
+            text-align: center;
+            background-color: #f8f8f8;
+            height: 633px;
+            padding-top: 50px;
+            .content {
+                text-align: center;
+                padding: 17px 0 19px;
+                h2 {
+                    font-size: 38px;
+                    font-weight: 400;
+                    font-family: "Playfair Display", serif;
+                    line-height: 1.447em;
+                    color: #2b2b2b;
+                    span {
+                        color: #f34f3f;
+                    }
+                }
+                p {
+                    font-size: 17px;
+                    font-family: Lora, serif;
+                    line-height: 1.6em;
+                    color: #6d6a6a;
+                    margin-top: 29px;
+                }
+            }
+        }
+        .register {
+            .content {
+                h2 {
+                    font-size: 38px;
+                    font-weight: 400;
+                    font-family: "Playfair Display",serif;
+                    color: #2b2b2b;
+                    line-height: 1.447em
+                }
+
+                p {
+                    color: #6d6a6a;
+                    font-family: Lora,serif;
+                    line-height: 1.6em;
+                }
+            }
+            .form {
+                input {
+                    display: block;
+                    font-size: 12px;
+                    font-family: Montserrat, sans-serif;
+                    line-height: 20px;
+                    color: #959595;
+                    background-color: #fff;
+                    border: 1px solid #e8e8e8;
+                    border-color: #e8e8e8;
+                    margin: 0 0 15px;
+                    padding: 19px 18px;
+                    width: 100%;
+                    outline: 0;
+                }
+            }
+            .submit {
+                input {
+                    font-size: 12px;
+                    font-family: Montserrat, sans-serif;
+                    text-transform: uppercase;
+                    padding: 13px 42px;
+                    color: #fff;
+                    background-color: #f34f3f;
+                    border: 1px solid transparent;
+                }
+            }
+        }
+    }
+}

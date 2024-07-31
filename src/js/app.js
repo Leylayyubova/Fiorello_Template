@@ -3,6 +3,7 @@ var swiper = new Swiper(".leylus", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  loop:true,
 });
 
 var swiper = new Swiper(".mySwiper", {
@@ -10,4 +11,5 @@ var swiper = new Swiper(".mySwiper", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  loop:true,
 });
